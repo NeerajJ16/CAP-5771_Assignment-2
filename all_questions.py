@@ -264,23 +264,21 @@ def question7():
     answer = {}
 
     # float
-    answer["a, info gain, ID"] = 0.0
-    answer["b, info gain, Handedness"] = -1.474
+    answer["a, info gain, ID"] = 1.0
+    answer["b, info gain, Handedness"] = 0.5310044
 
     # string: "ID" or "Handedness"
-    answer["c, which attrib"] = "Based on the information gain, Handedness should not be chosen as the splitting attribute because it results in negative information gain. So we will choose the ID attribute"
+    answer["c, which attrib"] = "Handedness"
 
     # answer is a float
-    answer["d, gain ratio, ID"] = 0.0
-    answer["e, gain ratio, Handedness"] = -0.737
+    answer["d, gain ratio, ID"] = 0.23137821315975915
+    answer["e, gain ratio, Handedness"] = 0.531
 
     # string: one of 'ID' or 'Handedness' based on gain ratio
     # choose the attribute with the largest gain ratio
-    answer["f, which attrib"] = "Based"
+    answer["f, which attrib"] = "Handedness"
 
     return answer
-
-
 # ----------------------------------------------------------------------
 
 if __name__ == "__main__":
